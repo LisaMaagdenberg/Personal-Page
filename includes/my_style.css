@@ -1,0 +1,55 @@
+/*Page header*/
+.header {
+	color: #242222;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 3px;
+	margin-left: 5px;
+	border-bottom: 3px solid grey;
+}
+
+/*container for sidebar and content*/
+.page {
+	display: flex;
+}
+
+/*Sidebar*/
+.menu {
+	background-color: #9e9e9e;
+	margin-top: 5px;
+	flex: 1;
+}
+
+.menu ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+	
+.menu li {
+	box-sizing: border-box;
+	max-width: 120px;
+}
+
+.menu a {
+	font-family: tahoma;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.menu li:hover {
+	background-color: grey;
+}
+
+.menu a:visited {
+	color: black;
+}
+
+/*Content*/
+.content {
+	flex: 5;
+	padding: 5px;
+	font-family: tahoma;
+	border: 3px solid grey;
+	margin-top: 5px;
+}
+
