@@ -44,8 +44,21 @@
 	color: black;
 }
 
+/*classes for the different sidebar parts*/
+.About {
+
+}
+
+.Portfolio {
+
+}
+
+.Contact {
+	
+}
+
 /*Content*/
-.content {
+.contentAbout {
 	flex: 5;
 	padding: 5px;
 	font-family: tahoma;
@@ -53,3 +66,18 @@
 	margin-top: 5px;
 }
 
+.contentPortfolio {
+	flex: 5;
+	padding: 5px;
+	font-family: tahoma;
+	border: 3px solid grey;
+	margin-top: 5px;
+}
+
+.contentContact {
+	flex: 5;
+	padding: 5px;
+	font-family: tahoma;
+	border: 3px solid grey;
+	margin-top: 5px;
+}
