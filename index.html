@@ -2,39 +2,63 @@
 <html>
 	<head>
 		<title>Personal Website</title>
-		<link rel="stylesheet" type="text/css" href="includes/my_style.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="includes/my_style.css">
 	</head>
 	<body>
 		<div>
 			<h1 class="header">Lisa Maagdenberg</h1>
 		</div>
-		<div class="page">
-			<div class="menu">
-				<ul>
-					<li class="About"><a href="#">About me</a></li>
-					<li class="Portfolio"><a href="#">Portfolio</a></li>
-					<li class="Contact"><a href="#">Contact Information</a></li>
-				</ul>
-			</div>
-			<div class="contentAbout">
-				<h3>Hi there!</h3>
-				<p>It seems like you stumbled upon my personal website! While you're here, let me introduce myself.</p>
-				<p>If you look at the top left corner, you can see that my name is Lisa Maagdenberg. Currently I'm following a course by the New York Code and Design Academy to become a Junior Full-Stack Javascript Developer. I know, it's a mouthfull, but it comes down to this: I learn to make awesome websites!<p>
-			</div>
-			<div class="contentPortfolio">
-				<h3>My work</h3>
-				<p>This is my portfolio</p>
-			</div>
-			<div class="contentContact">
-				<h3>Contact me</h3>
-				<p>The fastest way to contact me, is by e-mail.<br>
-				Send an e-mail to <b>lisa.maagdenberg92@gmail.com</b> and I will reply as soon as possible!</p>
-				<p>You can also contact me by calling me on <b>06-12345678</b>. I would appreciate it if you could only call me during office hours. </p>
-				<p>Check out my linkedIn profile for additional contact information. <br>Go to <b>nl.linkedin.com/in/lisamaagdenberg</b>.</p>
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-2 col-md-2 col-lg-2">
+					<ul class="nav nav-tabs nav-stacked nav-custom">
+						<li id="About"><a href="#">About me</a></li>
+						<li id="Portfolio"><a href="#">Portfolio</a></li>
+						<li id="Contact"><a href="#">Contact Information</a></li>
+					</ul>
+				</div>
+				<div class="contentAbout col-sm-9 col-md-9 col-lg-9">
+					<h3 class="title">Hi there!</h3>
+					<p>It seems like you stumbled upon my personal website! While you're here, let me introduce myself.</p>
+					<p>If you look at the top left corner, you can see that my name is Lisa Maagdenberg. Currently I'm following a course by the New York Code and Design Academy to become a Junior Full-Stack Javascript Developer. I know, it's a mouthfull, but it comes down to this: I learn to make awesome websites!<p>
+					<p>On this website, you can view some of my best work. Interested? I can make you a responsive website! Just contact me and I will see what I can do for you.</p>
+					<img class="smallPhoto" src="computer.jpg" alt="Computer responsive">
+				</div>
+				<div class="contentPortfolio col-sm-9 col-md-9 col-lg-9">
+					<h3 class="title">My work<br></h3>
+					<p>These are some examples of my work! Take a good look and let me know which one you like.</p>
+					<div class="portfolio">
+						<h4 class="h4title">This should be a website</h4><img class="photo" src="wallpaper.jpeg" alt="stone"><br>
+						<p><i>Used: </i>HTML, CSS (flexbox), jQuery (JavaScript)</p>
+						<p><i>URL: </i>go to this link</p>
+						<p><i>Source code: </i>go to this link</p>
+					</div>
+					<div class="portfolio">
+						<h4 class="h4title">This should be another website</h4><img class="photo" src="black-and-white.jpg" alt="Black and white photo"><br>
+						<p><i>Used: </i>HTML (Bootstrap), CSS, jQuery (JavaScript)</p>
+						<p><i>URL: </i>go to this link</p>
+						<p><i>Source code: </i>go to this link</p>
+					</div>
+				</div>
+				<div class="contentContact col-sm-9 col-md-9 col-lg-9">
+					<h3 class="title">Contact me</h3>
+					<p>The fastest way to contact me, is by e-mail.<br>
+					Send an e-mail to <b>lisa.maagdenberg92@gmail.com</b> and I will reply as soon as possible!</p>
+					<p>You can also contact me by calling me on *<b>06-12345678</b>*. I would appreciate it if you could only call me during office hours. </p>
+					<p>Check out my linkedIn profile for additional contact information. <br>Go to <b>nl.linkedin.com/in/lisamaagdenberg</b>.</p>
+					<img class="smallPhoto" src="computer-wallpapers-22.jpg" alt="Computer keyboard">
+				</div>
 			</div>
 		</div>
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright by Lisa Maagdenberg &copy;</p>
+      </div>
+    </footer>
 	</body>
 <script src="includes/jquery-3.1.1.min.js"></script>
 <script src="includes/my_JS_style.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </html>
